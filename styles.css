@@ -1,0 +1,39 @@
+p{
+    font-family:'Libre Baskerville', serif;
+    font-weight: 700;
+}
+.lover{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2, h3{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-align: center;
+}
+.paddington img{
+    width: 25%;
+}
+header>nav>a{
+    padding: 2rem;
+    font-family:'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 600;
+    background-color: rgba(0,0,0,.5);
+    color:white;
+    display: inline-block;
+}
+header>nav>a:hover{
+    color:white;
+}
+.instagram img{
+    max-height: 30px;
+    display: inline-block;
+}
+.index{
+    background-image:url(images/highlands.jpg);
+}
