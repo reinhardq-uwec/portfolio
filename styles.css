@@ -8,6 +8,7 @@ p{
     text-align: center;
 }
 h1{
+    font-family: 'Zen Antique', serif;
     text-align: center;
 }
 h2, h3{
@@ -15,25 +16,45 @@ h2, h3{
     font-style: italic;
     text-align: center;
 }
+.paddington{
+    display: flex;
+    justify-content: center;
+}
 .paddington img{
     width: 25%;
+    padding: 1rem;
 }
-header>nav>a{
-    padding: 2rem;
+header{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+}
+nav>a{
+    padding: 1rem 2rem;
     font-family:'Libre Baskerville', serif;
     font-style: italic;
     font-weight: 600;
-    background-color: rgba(0,0,0,.5);
     color:white;
     display: inline-block;
 }
-header>nav>a:hover{
-    color:white;
+nav>a:hover{
+    color:honeydew;
 }
-.instagram img{
-    max-height: 30px;
-    display: inline-block;
-}
-.index{
+body#index{
     background-image:url(images/highlands.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+body#lets-get-in-touch{
+    background-image: url(images/landscape.JPG);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.welcome>h1{
+    padding: 4rem 0;
+    color: white;
+}
+.instagram>h1{
+    padding: 4rem 0;
 }
