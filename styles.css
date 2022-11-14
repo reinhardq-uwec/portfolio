@@ -24,6 +24,38 @@ h2, h3{
     width: 25%;
     padding: 1rem;
 }
+.zine{
+    display: flex;
+    justify-content: center;
+}
+.zine img{
+    width: 80px;
+    padding: 1;
+}
+.recent-work{
+    display: flex;
+    justify-content: center;
+}
+.recent-work img{
+    width: 25%;
+    padding: 1rem;
+}
+.recent-work2{
+    display: flex;
+    justify-content: center;
+}
+.recent-work2 img{
+    width: 25%;
+    padding: 1rem;
+}
+.recent-work3{
+    display: flex;
+    justify-content: center;
+}
+.recent-work3 img{
+    width: 25%;
+    padding: 1rem;
+}
 header{
     display: flex;
     flex-direction: column-reverse;
@@ -43,13 +75,15 @@ nav>a:hover{
 }
 body#index{
     background-image:url(images/highlands.jpg);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-color: darkgrey;
 }
 body#lets-get-in-touch{
     background-image: url(images/landscape.JPG);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-color: darkgrey;
 }
 .welcome>h1{
     padding: 4rem 0;
@@ -57,4 +91,11 @@ body#lets-get-in-touch{
 }
 .instagram>h1{
     padding: 4rem 0;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+}
+.svg img{
+    width: 25%;
 }
